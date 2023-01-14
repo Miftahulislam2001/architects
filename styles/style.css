@@ -1,0 +1,123 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&family=Work+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Navbar Start Now */
+nav {
+  display: flex;
+  background-color: aqua;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1250px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0px 25px;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+/* Banner Section */
+.banner-section {
+  width: 100%;
+  max-width: 1250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.banner-detalse {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.banner-detalse {
+  font-family: "Work Sans", sans-serif;
+}
+.banner-section h1 {
+  margin-bottom: 16px;
+}
+.banner-section p {
+  margin-bottom: 16px;
+}
+.btn-primery {
+  width: 140px;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 0px 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.banner-img > img {
+  width: 100%;
+  height: 700px;
+  margin-bottom: 21px;
+}
+
+/* Features Section Start */
+.feature-section {
+  display: flex;
+  margin-top: 21px;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.feature-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  width: 50%;
+  margin-left: 20px;
+}
+.feature-images > img {
+  width: 280px;
+  height: 280px;
+  border-radius: 5px;
+}
+.feature-detailes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Work Sans", sans-serif;
+  width: 50%;
+  margin-left: 21px;
+}
+.quick {
+  color: #727272;
+}
+.feature {
+  color: #ff900e;
+}
+.feature-detailes > h1 {
+  margin-bottom: 21px;
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+}
+.feature-detailes > p {
+  color: #727272;
+  margin-bottom: 21px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
