@@ -435,8 +435,6 @@ nav > ul > li{
 margin-bottom: 40px;
 }
 .banner-img > img{
-  /* object-fit: cover;
-  object-position: center; */
   height: 600px;
 }
 
