@@ -26,11 +26,13 @@ nav {
   height: 80px;
   margin: 0 auto;
   padding: 0px 25px;
+  flex-wrap: wrap;
 }
 nav > ul {
   display: flex;
   list-style: none;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 /******************* 
@@ -45,6 +47,7 @@ nav > ul {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  
 }
 .banner-detalse {
   text-align: center;
@@ -89,6 +92,7 @@ nav > ul {
   margin: 0 auto;
   justify-content: space-between;
   margin-bottom: 50px;
+  
 }
 .feature-images {
   display: grid;
@@ -109,6 +113,7 @@ nav > ul {
   font-family: "Work Sans", sans-serif;
   width: 50%;
   margin-left: 21px;
+  
 }
 .quick {
   color: #727272;
@@ -145,6 +150,7 @@ nav > ul {
   margin: 0 auto;
   display: flex;
   margin-bottom: 20px;
+  
 }
 .meddle-detalse {
   width: 50%;
@@ -178,6 +184,7 @@ nav > ul {
   gap: 10px;
   margin-top: 30px;
   padding: 10px;
+ 
 }
 .card {
   background: #ffffff;
@@ -253,6 +260,7 @@ nav > ul {
   height: 220px;
   margin: 0 auto;
   margin-bottom: 50px;
+ 
 }
 .shop-card {
   width: 200px;
@@ -304,6 +312,7 @@ nav > ul {
   width: 100%;
   max-width: 1250px;
   margin-top: 40px;
+  
 }
 .service-card{
   width: 250px;
@@ -392,6 +401,7 @@ footer {
   align-items: center;
   margin: 0 auto;
   margin-bottom: 100px;
+  
 }
 footer p {
   font-weight: 400;
@@ -402,6 +412,8 @@ footer p {
 /***********************
  Responsive For Mobile 
  ************************/
+@media only screen and (max-width: 576px) {
+
 /* Navbar Section */
 nav{
   flex-direction: column;
@@ -415,7 +427,6 @@ nav > ul {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
-  
 }
 nav > ul > li{
   font-weight: bold;
@@ -431,7 +442,6 @@ margin-bottom: 40px;
 }
 
 /* Feature Section  */
-@media only screen and (max-width: 576px) {
   .feature-section {
     flex-direction: column;
   }
