@@ -14,7 +14,9 @@ header {
   background-color: #ff900e1a;
 }
 
-/* Navbar Start Now */
+/********************
+ Navbar Start Now 
+ *********************/
 nav {
   display: flex;
   align-items: center;
@@ -31,7 +33,9 @@ nav > ul {
   gap: 25px;
 }
 
-/* Banner Section */
+/******************* 
+   Banner Section 
+********************/
 .banner-section {
   width: 100%;
   max-width: 1250px;
@@ -74,7 +78,9 @@ nav > ul {
   margin-bottom: 21px;
 }
 
-/* Features Section Start */
+/*********************
+    Features Section 
+**********************/
 .feature-section {
   display: flex;
   margin-top: 21px;
@@ -125,9 +131,11 @@ nav > ul {
   font-size: 16px;
   line-height: 26px;
 }
-/* Meddle Section */
+/********************
+  Meddle Section
+ ****************** */
 .container {
-  /* border: 2px solid saddlebrown; */
+
   position: relative;
 }
 .meddle-section {
@@ -214,8 +222,14 @@ nav > ul {
   text-align: center;
   color: #ffffff;
 }
+.btn-div-p{
+  color: white;
 
-/* Some Facts */
+}
+
+/***************
+  Some Facts 
+ ***************/
 .some-facts {
   margin: 200px 200px 50px;
 }
@@ -253,7 +267,9 @@ nav > ul {
 .shop-card h1 {
   margin-bottom: 5px;
 }
-/* Sponsor Section */
+/********************
+ Sponsor Section
+ *******************/
 .sponsor {
   text-align: center;
   margin-top: 80px;
@@ -273,7 +289,9 @@ nav > ul {
   color: #727272;
   margin-bottom: 40px;
 }
-/* Sponsor Logo  */
+/*************** 
+Sponsor Logo  
+****************/
 .sponsor-logo {
   display: flex;
   justify-content: space-evenly;
@@ -309,6 +327,34 @@ footer p {
 /***********************
  Responsive For Mobile 
  ************************/
+/* Navbar Section */
+nav{
+  flex-direction: column;
+  height: auto;
+  margin-bottom: 20px;
+}
+nav h1{
+  margin-top: 10px;
+}
+nav > ul {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+nav > ul > li{
+  font-weight: bold;
+  font-size: 18px;
+}
+.banner-detalse >.btn-primery{
+margin-bottom: 40px;
+}
+.banner-img > img{
+  /* object-fit: cover;
+  object-position: center; */
+  height: 600px;
+}
+
 /* Feature Section  */
 @media only screen and (max-width: 600px) {
   .feature-section {
@@ -318,6 +364,7 @@ footer p {
     grid-template-columns: 1fr;
     width: 100%;
     justify-items: center;
+    margin: 30px;
   }
   .feature-detailes {
     width: 100%;
@@ -378,3 +425,10 @@ footer p {
     width: 130px;
   }
 }
+.btn-div{
+  left: 38%;
+}
+
+/**********************
+    Responsive End Now 
+ **********************/
