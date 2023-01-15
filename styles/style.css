@@ -205,15 +205,15 @@ nav > ul {
   height: 100%;
 }
 .btn-div {
-  position: relative;
+  position: absolute;
   width: 150px;
   height: 100px;
   background: #ff900e;
   border-radius: 8px;
   z-index: 50;
   text-align: center;
-  left: 48%;
-  bottom: 60px;
+  left: 50%;
+  bottom: -40px;
 }
 .btn-div h1 {
   font-weight: 700;
@@ -252,6 +252,7 @@ nav > ul {
   max-width: 1250px;
   height: 220px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 .shop-card {
   width: 200px;
@@ -261,12 +262,87 @@ nav > ul {
   text-align: center;
   padding-top: 25px;
 }
+.shop-card:hover{
+  background-color: #FF900E;
+}
 .shop-card img {
   margin-bottom: 5px;
 }
 .shop-card h1 {
   margin-bottom: 5px;
 }
+/******************** 
+  Services Section 
+********************/
+.services{
+  width: 100%;
+  max-width: 1250px;
+  /* height: 600px; */
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.service-detail{
+  text-align: center;
+}
+.service-detail h1{
+  text-align: center;
+  margin: 21px 20px 21px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.service-detail p{
+  font-weight: 400;
+  line-height: 26px;
+  color: #727272;
+  font-size: 16px;
+
+}
+.service-cards{
+  
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1250px;
+  margin-top: 40px;
+}
+.service-card{
+  width: 250px;
+  height: 300px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+
+}
+.service-card:hover{
+  background-color: #f1be84;
+}
+.service-card > img{
+  margin-top: 20px;
+  border: none;
+  border-radius: 50%;
+  border:  2px solid salmon;
+  padding: 5px;
+  background-color: #ff900e;
+}
+.service-card > h3{
+  margin-top: 20px;
+  text-transform: uppercase;
+ 
+}
+.service-card > p{
+  margin-top: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #727272;
+  font-size: 16px;
+  padding: 0px 5px;
+
+}
+
+
 /********************
  Sponsor Section
  *******************/
@@ -356,7 +432,7 @@ margin-bottom: 40px;
 }
 
 /* Feature Section  */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
   .feature-section {
     flex-direction: column;
   }
@@ -384,6 +460,8 @@ margin-bottom: 40px;
     text-align: center;
     padding: 15px;
   }
+  
+
   .meddle-img {
     margin: 0 auto;
     padding: 10px;
@@ -413,20 +491,26 @@ margin-bottom: 40px;
     height: auto;
     gap: 15px;
   }
+  .btn-div{
+    display: none;
+  }
+
+  /* Service Section */
+  .service-cards{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
 
   /* Sponsor Logo  */
   .sponsor-logo{
     flex-direction: column;
     align-items: center;
     row-gap: 40px;
-    
   }
   .sponsor-logo > img{
     width: 130px;
   }
-}
-.btn-div{
-  left: 38%;
 }
 
 /**********************
