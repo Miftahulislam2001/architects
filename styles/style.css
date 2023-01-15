@@ -12,6 +12,7 @@ body {
 }
 header {
   background-color: #ff900e1a;
+
 }
 
 /********************
@@ -424,15 +425,17 @@ footer p {
   /* Feature Section  */
   .feature-section {
     flex-direction: column;
+    max-width: 1250px;;
   }
   .feature-images {
     grid-template-columns: 1fr;
     width: 100%;
     justify-items: center;
-    margin: 30px;
+    margin: 30px 0px;
   }
   .feature-detailes {
-    width: 100%;
+    
+    width: 90%;
     text-align: center;
   }
   .btn-primery {
