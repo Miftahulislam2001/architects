@@ -46,7 +46,6 @@ nav > ul {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  
 }
 .banner-detalse {
   text-align: center;
@@ -91,7 +90,6 @@ nav > ul {
   margin: 0 auto;
   justify-content: space-between;
   margin-bottom: 50px;
-  
 }
 .feature-images {
   display: grid;
@@ -112,7 +110,6 @@ nav > ul {
   font-family: "Work Sans", sans-serif;
   width: 50%;
   margin-left: 21px;
-  
 }
 .quick {
   color: #727272;
@@ -139,7 +136,6 @@ nav > ul {
   Meddle Section
  ****************** */
 .container {
-
   position: relative;
 }
 .meddle-section {
@@ -149,7 +145,6 @@ nav > ul {
   margin: 0 auto;
   display: flex;
   margin-bottom: 20px;
-  
 }
 .meddle-detalse {
   width: 50%;
@@ -183,7 +178,6 @@ nav > ul {
   gap: 10px;
   margin-top: 30px;
   padding: 10px;
- 
 }
 .card {
   background: #ffffff;
@@ -228,9 +222,8 @@ nav > ul {
   text-align: center;
   color: #ffffff;
 }
-.btn-div-p{
+.btn-div-p {
   color: white;
-
 }
 
 /***************
@@ -259,7 +252,6 @@ nav > ul {
   height: 220px;
   margin: 0 auto;
   margin-bottom: 50px;
- 
 }
 .shop-card {
   width: 200px;
@@ -269,8 +261,8 @@ nav > ul {
   text-align: center;
   padding-top: 25px;
 }
-.shop-card:hover{
-  background-color: #FF900E;
+.shop-card:hover {
+  background-color: #ff900e;
 }
 .shop-card img {
   margin-bottom: 5px;
@@ -281,39 +273,36 @@ nav > ul {
 /******************** 
   Services Section 
 ********************/
-.services{
+.services {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
   margin-top: 50px;
 }
-.service-detail{
+.service-detail {
   text-align: center;
 }
-.service-detail h1{
+.service-detail h1 {
   text-align: center;
   margin: 21px 20px 21px;
   font-weight: 600;
   line-height: 26px;
 }
-.service-detail p{
+.service-detail p {
   font-weight: 400;
   line-height: 26px;
   color: #727272;
   font-size: 16px;
-
 }
-.service-cards{
-  
+.service-cards {
   display: flex;
   gap: 10px;
   justify-content: center;
   width: 100%;
   max-width: 1250px;
   margin-top: 40px;
-  
 }
-.service-card{
+.service-card {
   width: 250px;
   height: 300px;
   border: none;
@@ -321,34 +310,30 @@ nav > ul {
   text-align: center;
   background: #ffffff;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-
 }
-.service-card:hover{
+.service-card:hover {
   background-color: #f1be84;
 }
-.service-card > img{
+.service-card > img {
   margin-top: 20px;
   border: none;
   border-radius: 50%;
-  border:  2px solid salmon;
+  border: 2px solid salmon;
   padding: 5px;
   background-color: #ff900e;
 }
-.service-card > h3{
+.service-card > h3 {
   margin-top: 20px;
   text-transform: uppercase;
- 
 }
-.service-card > p{
+.service-card > p {
   margin-top: 20px;
   font-weight: 400;
   line-height: 26px;
   color: #727272;
   font-size: 16px;
   padding: 0px 5px;
-
 }
-
 
 /********************
  Sponsor Section
@@ -400,7 +385,6 @@ footer {
   align-items: center;
   margin: 0 auto;
   margin-bottom: 100px;
-  
 }
 footer p {
   font-weight: 400;
@@ -412,33 +396,32 @@ footer p {
  Responsive For Mobile 
  ************************/
 @media only screen and (max-width: 576px) {
+  /* Navbar Section */
+  nav {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  nav h1 {
+    margin-top: 10px;
+  }
+  nav > ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  nav > ul > li {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .banner-detalse > .btn-primery {
+    margin-bottom: 40px;
+  }
+  .banner-img > img {
+    height: 600px;
+  }
 
-/* Navbar Section */
-nav{
-  flex-direction: column;
-  height: auto;
-  margin-bottom: 20px;
-}
-nav h1{
-  margin-top: 10px;
-}
-nav > ul {
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-}
-nav > ul > li{
-  font-weight: bold;
-  font-size: 18px;
-}
-.banner-detalse >.btn-primery{
-margin-bottom: 40px;
-}
-.banner-img > img{
-  height: 600px;
-}
-
-/* Feature Section  */
+  /* Feature Section  */
   .feature-section {
     flex-direction: column;
   }
@@ -466,7 +449,6 @@ margin-bottom: 40px;
     text-align: center;
     padding: 15px;
   }
-  
 
   .meddle-img {
     margin: 0 auto;
@@ -475,46 +457,46 @@ margin-bottom: 40px;
     justify-content: center;
     width: 100%;
   }
-  .meddle-img > img{
+  .meddle-img > img {
     width: 100%;
   }
-  .card{
+  .card {
     text-align: left;
     width: 100%;
     padding: 10px;
   }
 
   /* Some Facts */
-  .some-facts{
+  .some-facts {
     margin: 0;
     text-align: center;
     padding: 5px;
   }
 
   /* Shop Section */
-  .shop-section{
+  .shop-section {
     flex-direction: column;
     height: auto;
     gap: 15px;
   }
-  .btn-div{
+  .btn-div {
     display: none;
   }
 
   /* Service Section */
-  .service-cards{
+  .service-cards {
     flex-direction: column;
     align-items: center;
     height: auto;
   }
 
   /* Sponsor Logo  */
-  .sponsor-logo{
+  .sponsor-logo {
     flex-direction: column;
     align-items: center;
     row-gap: 40px;
   }
-  .sponsor-logo > img{
+  .sponsor-logo > img {
     width: 130px;
   }
 }
